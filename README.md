@@ -6,6 +6,6 @@ To tackle this issue, we employed the KMeans model, foregoing the use of labeled
 - Selecting features that distinctly differed between the two classes,
 - Reducing the volume of class 0 data to achieve a more balanced dataset,
 - Training the model on this balanced dataset without supervision,
-- Testing the model on the complete, highly imbalanced dataset, achieving a precision of 0.86 and a recall of 0.76 for class 1 (fraudulent transactions) recognition.
+- Testing the model on the complete, highly imbalanced dataset, achieving a precision of 0.73 and a recall of 0.75 for class 1 (fraudulent transactions) recognition.
 
 This method aligns with practices highlighted in various studies, such as those discussing the benefits of unsupervised learning in fraud detection source, and emphasizes the importance of preprocessing to balance datasets for improved model performance source.
